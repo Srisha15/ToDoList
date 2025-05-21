@@ -23,7 +23,7 @@ A simple and responsive To-Do List application built with HTML, CSS, and JavaScr
 - Using `event.target` and `event delegation` to manage user interactions efficiently
 
 
-##Thought for the repo--
+## Thought for the repo--
 
 Why don't JavaScript events ever get lost?
 
