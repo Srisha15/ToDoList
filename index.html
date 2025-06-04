@@ -5,14 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo List</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <h1>ToDo App</h1>
     <input placeholder="Enter your tasks">
     <button>Add Task</button>
+    <br/>
+    <br/>
+    <div class="container">
+    <div class="box created">
+        <h2>Tasks for the day</h2>
     <ul>
-        <li>Eat <button class="delete">Delete Task</button></li>
+        <li>Eat <input type="checkbox" name="check" value="item1">   <button class="delete">Delete Task</button></li>
     </ul>
+    </div>
+    <div class="box done">
+        <h2>Completed Tasks</h2>
+        <ul>
+
+        </ul>
+    </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
