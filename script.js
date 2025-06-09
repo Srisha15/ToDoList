@@ -20,6 +20,23 @@ sub.addEventListener("click",function(){
 
 
 
+    // //Delete Task Button
+    // //1.Create Button
+    // let delBtn = document.createElement("button");
+    // //2.Add Text
+    // delBtn.innerText = "Delete Task";
+    // //Classlist 
+    // delBtn.classList.add("delete");
+    // //3.Insert
+    // item.appendChild(delBtn);
+
+
+    //Create Checkbox
+    let inputF = document.createElement("input");
+    inputF.type = "checkbox";
+    inputF.name = "check";
+    item.appendChild(inputF)
+
     //Delete Task Button
     //1.Create Button
     let delBtn = document.createElement("button");
@@ -29,6 +46,8 @@ sub.addEventListener("click",function(){
     delBtn.classList.add("delete");
     //3.Insert
     item.appendChild(delBtn);
+    
+
 
 
     // delBtn.addEventListener("click",function(){
